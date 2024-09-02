@@ -2,6 +2,7 @@ import '../styles/Header.css';
 import logo from '../../public/logo.svg';
 
 import resume from '../../public/resume.pdf';
+import { NavLink } from 'react-router-dom'
 
 function Header() {
     return(
@@ -15,10 +16,28 @@ function Header() {
                 <nav>
                     <ul>
                         <li>
-                            <a href="">Home</a>
+                            <a href="">
+                                <NavLink 
+                                    to='/'
+                                    className={({ isActive, isPending }) => 
+                                        isPending ? "pending" : isActive ? "active" : ""
+                                    }
+                                >
+                                    Home
+                                </NavLink>
+                            </a>
                         </li>
                         <li>
-                            <a href="">Blog</a>
+                            <a href="">
+                                <NavLink 
+                                    to='/blog'
+                                    className={({ isActive, isPending }) =>
+                                        isPending ? "pending" : isActive? "active" : ""
+                                    }
+                                >
+                                    Blog
+                                </NavLink>
+                            </a>
                         </li>
                         <li>
                             {/* <a href={resume} download="clint_resume">CV</a> */}

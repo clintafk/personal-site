@@ -5,6 +5,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import App from './App.tsx'
 import './index.css'
 
+import Blog from './routes/Blog.tsx'
+
 const router = createBrowserRouter([
   {
     path: '/',
@@ -13,7 +15,7 @@ const router = createBrowserRouter([
   },
   {
     path: '/blog',
-    element: <App />,
+    element: <Blog />,
     errorElement: 'Error 404 not found!',
   }
 ])
