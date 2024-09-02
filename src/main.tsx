@@ -6,17 +6,18 @@ import App from './App.tsx'
 import './index.css'
 
 import Blog from './routes/Blog.tsx'
+import ErrorPage from './routes/ErrorPage.tsx'
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
-    errorElement: 'Error 404 not found!',
+    errorElement: <ErrorPage />,
   },
   {
     path: '/blog',
     element: <Blog />,
-    errorElement: 'Error 404 not found!',
+    errorElement: <ErrorPage />,
   }
 ])
 
