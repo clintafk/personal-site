@@ -1,0 +1,36 @@
+.welcome {
+    display: flex;
+    flex-direction: column;
+}
+.welcome-header h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.welcome-content {
+    display: flex;
+    column-gap: 45px;
+}
+
+.welcome-content p {
+    font-size: 22px;
+    color: #FFFFFF;
+    
+}
+
+.welcome-description {
+    width: 65%;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.welcome-image {
+    width: 35%;
+}
+.welcome-image img {
+    width: 210px;
+    height: 210px;
+    border-radius: 100%;
+}

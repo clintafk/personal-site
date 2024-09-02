@@ -1,0 +1,10 @@
+.welcome-blog h2 {
+        font-size: 28px;
+        color: white;
+        font-weight: bold;
+}
+.welcome-blog p {
+        font-size: 22px;
+        color: white;
+        font-weight: 400;
+}

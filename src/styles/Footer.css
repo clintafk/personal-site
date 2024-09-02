@@ -1,0 +1,14 @@
+footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+footer p {
+    font-size: 16;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+
+}

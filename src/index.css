@@ -1,0 +1,30 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: #040D12;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #33BBFF;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #33BBFF;
+}
+
+body {
+  margin: 37px 250px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* max-width: 100vh; */
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
