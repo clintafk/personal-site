@@ -1,6 +1,8 @@
 import '../styles/Header.css';
 import logo from '../../public/logo.svg';
 
+import resume from '../../public/resume.pdf';
+
 function Header() {
     return(
         <header className='header'>
@@ -19,7 +21,8 @@ function Header() {
                             <a href="">Blog</a>
                         </li>
                         <li>
-                            <a href="">CV</a>
+                            {/* <a href={resume} download="clint_resume">CV</a> */}
+                            <a href={resume} target='_blank'>CV</a>
                         </li>
                         <li>
                             <a href="">Contact</a>
