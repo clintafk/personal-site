@@ -10,18 +10,20 @@ const userDescription: JSX.Element = (
         </p>
         <p>
             This website is going to be the hub for everything about me. 
-            The purpose of this website is to 
+            Here I'll share my thoughts, interests, updates with my career, and many more!
         </p>
-
+        <p>
+            Currently it is very empty, but there will be more to come!
+        </p>
     </div>
 )
 
 function Body() {
-
     return (
         <>
             <div className="body">
                 <Welcome userName='Clint' imagePath={UserImage} userDescription={userDescription}/>
+                <Posts />
             </div>
         </>
     )
