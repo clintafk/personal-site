@@ -12,7 +12,7 @@ function Welcome ({userName, imagePath, userDescription}: WelcomeProps) {
         <>
             <div className="welcome">
                 <div className="welcome-header">
-                    <img src={Greet} alt="" />
+                    <h1>Hey, I'm {userName}!</h1>
                 </div>
                 <div className="welcome-content">
                     <div className='welcome-description'>
